@@ -1,11 +1,11 @@
 import './App.css';
 import 'antd/dist/antd.css';
-
+import Login from './pages/login';
 function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <>
+    <Login />
+    </>
   );
 }
 
